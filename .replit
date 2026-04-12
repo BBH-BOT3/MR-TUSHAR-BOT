@@ -1,6 +1,0 @@
-hidden = ["package-lock.json", "package.json", "Nayan"]
-language = "bash"
-run = "npm start"
-
-[agent]
-expertMode = true
