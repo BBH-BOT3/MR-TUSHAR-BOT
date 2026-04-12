@@ -53,7 +53,7 @@ module.exports.handleReply = async ({
 
 async function linkanh(choice) {
   const axios = require("axios");
-  const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+  const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json');
   const n = apis.data.api
   const options = {
     "1": "/video/love",

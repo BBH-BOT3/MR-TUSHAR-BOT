@@ -24,7 +24,7 @@ start: async function({ nayan, events, args, lang}) {
     const request = require("request");
     const prompt = args.join(" ");
     const key = this.config.credits;
-    const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json')
+    const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json')
   const n = apis.data.api
     if(!prompt) return nayan.reply(lang('missing'), events.threadID, events.messageID)
 

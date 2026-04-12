@@ -7,7 +7,7 @@ async function downloadMusicFromYoutube(link, path) {
   const timestart = Date.now();
 
   try {
-    const res = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json`);
+    const res = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-OFFICIAL/Nayan/main/api.json`);
     const api = res.data.down_stream
     const data = await axios.get(api+"/nayan/yt?url="+link);
     console.log(data.data)
